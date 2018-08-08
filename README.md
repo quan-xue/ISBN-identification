@@ -41,7 +41,7 @@ Run the script in Linux using Python from the parent directory in the format:
 $ python ./ctpn/ISBN_OCR.py "pdf_file.pdf" "key_directory.json" angle_of_rotation \
 *Angle of rotation would be the required clock-wise rotation for the pdf file eg. 0, 90, 180, 270
 
-There is an optional debug mode, activated by -d or --debug. This will generate the intermediate images (it would take longer to run), which would help to improve interpretation.
+There is an optional debug mode, activated by -d or --debug. This will generate the intermediate images and would take longer to run.
 
 #### Demo (Demo folder)
 To check that you have setup the script properly, run the script on  demo.pdf. You should obtain the output, shown in the folder.
