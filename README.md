@@ -3,7 +3,7 @@ A project on identifying International Standard Book Number from scanned invoice
 
 Both scripts take in a pdf file of a scanned invoice and outputs an excel file containing the ISBNs and the books' information in the invoices.
 
-There are two implementations:
+There are two implementations:\
 A. Google Vision (ISBN_OCR_GV.py)
 -This is the script for the implementation using Google Vision. 
 -Run it from the command line in Linux using Python in the format:
