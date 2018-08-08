@@ -1,5 +1,5 @@
 # ISBN-identification
-A project on identifying International Standard Book Numbers from scanned invoices
+A project on identifying International Standard Book Numbers (ISBNs) from scanned invoices
 
 Both scripts take in a pdf file of a scanned invoice and outputs an excel file containing the ISBNs and the books' information in the invoices.
 
