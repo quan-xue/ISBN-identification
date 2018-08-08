@@ -22,6 +22,9 @@ $ python ISBN_OCR_GV.py [-d] "pdf_file.pdf" "key_directory.json"
 
 There is an optional debug mode, activated by -d or --debug.
 
+#### Demo (Demo folder)
+To check that you have setup the script properly, run the script on  demo.pdf. You should obtain the output, shown in the folder.
+
 ### B. Tesseract + CTPN 
 This script uses the CTPN package for the detection of text boxes, as described in: 
 
