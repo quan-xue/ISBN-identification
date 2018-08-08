@@ -57,7 +57,7 @@ def convert_pdf(pdf_file,im_folder,resolution,debug):
     directory = os.path.splitext(pdf_file)[0]
     image_dir = os.path.join(directory,im_folder)
 
-    #writes image using wand
+    #writes image using wand 
     with(Image(filename=pdf_file,resolution=resolution)) as source:
         images=source.sequence
         pages=len(images)
