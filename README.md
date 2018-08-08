@@ -28,6 +28,9 @@ Connectionist Text Proposal Network, ECCV, 2016.
 https://github.com/tianzhi0549/CTPN
 Please make sure to install the relevant packages by following the instructions described in the CTPN package.
 
+It also requires the tesseract engine. Follow the setup guide here:
+https://github.com/tesseract-ocr/tesseract
+
 #### How to run the script
 Paste the script into the folder 'ctpn' after you have setup CTPN.
 Run the script in Linux using Python from the parent directory in the format:
