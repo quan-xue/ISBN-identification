@@ -4,7 +4,7 @@ A project on identifying International Standard Book Number from scanned invoice
 Both scripts take in a pdf file of a scanned invoice and outputs an excel file containing the ISBNs and the books' information in the invoices.
 
 There are two implementations:\
-A. Google Vision (ISBN_OCR_GV.py) \
+### A. Google Vision (ISBN_OCR_GV.py) \
 -This is the script for the implementation using Google Vision. \
 -Run it from the command line in Linux using Python in the format: \
 python ISBN_OCR_GV.py "pdf_file.pdf" "key_directory.json" \
@@ -16,7 +16,7 @@ python ISBN_OCR_GV.py "pdf_file.pdf" "key_directory.json" \
 Instructions for Google Vision can be found here: 
 https://cloud.google.com/vision/docs/libraries
 
-B. Tesseract + CTPN 
+### B. Tesseract + CTPN 
 -This script uses the CTPN package described by: \
 Z. Tian, W. Huang, T. He, P. He and Y. Qiao: Detecting Text in Natural Image with
 Connectionist Text Proposal Network, ECCV, 2016. \
