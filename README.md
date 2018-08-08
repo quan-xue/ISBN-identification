@@ -11,6 +11,7 @@ Make sure you have the following packages installed in Python:
 2. xlsxwriter 
 3. isbnlib 
 4. API key for Google Vision
+
 Instructions for setting up Google Vision can be found here: 
 https://cloud.google.com/vision/docs/libraries
 #### How to run the script
