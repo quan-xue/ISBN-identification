@@ -23,11 +23,13 @@ $ python ISBN_OCR_GV.py [-d] "pdf_file.pdf" "key_directory.json"
 There is an optional debug mode, activated by -d or --debug.
 
 ### B. Tesseract + CTPN 
-This script uses the CTPN package for the detection of text boxes, as described by: 
+This script uses the CTPN package for the detection of text boxes, as described in: 
+
 Z. Tian, W. Huang, T. He, P. He and Y. Qiao: Detecting Text in Natural Image with
 Connectionist Text Proposal Network, ECCV, 2016. 
 https://github.com/tianzhi0549/CTPN
-Please make sure to install the relevant packages by following the instructions described in the CTPN package.
+
+Please make sure to install the relevant packages by following the instructions described in the CTPN repository.
 
 It also requires the tesseract engine. Follow the setup guide here:
 https://github.com/tesseract-ocr/tesseract
@@ -39,7 +41,7 @@ Run the script in Linux using Python from the parent directory in the format:
 $ python ./ctpn/ISBN_OCR.py "pdf_file.pdf" "key_directory.json" angle_of_rotation \
 *Angle of rotation would be the required clock-wise rotation for the pdf file eg. 0, 90, 180, 270
 
-There is an optional debug mode, activated by -d or --debug.
+There is an optional debug mode, activated by -d or --debug. This will generate the intermediate images (it would take longer to run), which would help to improve interpretation.
 
 
 
