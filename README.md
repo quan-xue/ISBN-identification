@@ -21,3 +21,6 @@ Z. Tian, W. Huang, T. He, P. He and Y. Qiao: Detecting Text in Natural Image wit
 Connectionist Text Proposal Network, ECCV, 2016.
 https://github.com/tianzhi0549/CTPN
 -Please make sure to install the relevant packages first
+
+
+asd
