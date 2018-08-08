@@ -16,7 +16,8 @@ https://cloud.google.com/vision/docs/libraries
 #### How to run the script
 Store your key in the same directory as the script.
 Run it from the command line in Linux using Python in the format: 
-$ python ISBN_OCR_GV.py [-d] "pdf_file.pdf" "key_directory.json" \
+
+$ python ISBN_OCR_GV.py [-d] "pdf_file.pdf" "key_directory.json" 
 
 There is an optional debug mode, activated by -d or --debug.
 
@@ -30,6 +31,7 @@ Please make sure to install the relevant packages by following the instructions 
 #### How to run the script
 Paste the script into the folder 'ctpn' after you have setup CTPN.
 Run the script in Linux using Python from the parent directory in the format:
+
 $ python ./ctpn/ISBN_OCR.py "pdf_file.pdf" "key_directory.json" angle_of_rotation \
 *Angle of rotation would be the required clock-wise rotation for the pdf file eg. 0, 90, 180, 270
 
