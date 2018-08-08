@@ -24,7 +24,7 @@ This script uses the CTPN package for the detection of text boxes, as described 
 Z. Tian, W. Huang, T. He, P. He and Y. Qiao: Detecting Text in Natural Image with
 Connectionist Text Proposal Network, ECCV, 2016. 
 https://github.com/tianzhi0549/CTPN
-Please make sure to install the relevant packages by following the instructions described in the CTPN package.\ 
+Please make sure to install the relevant packages by following the instructions described in the CTPN package.
 
 #### How to run the script
 Paste the script into the folder 'ctpn' after you have setup CTPN.
