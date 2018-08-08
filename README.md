@@ -7,6 +7,7 @@ There are two implementations:
 -Run it from the command line in Linux using Python in the format:
 python ISBN_OCR_GV.py "pdf_file" "key_directory"
 -Make sure you have the following packages installed in Python:
-Wand
-xlsxwriter
-isbnlib
+1. Wand
+2. xlsxwriter
+3. isbnlib
+4. API key for Google Vision
