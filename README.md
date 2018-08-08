@@ -11,3 +11,4 @@ python ISBN_OCR_GV.py "pdf_file" "key_directory"
 2. xlsxwriter
 3. isbnlib
 4. API key for Google Vision
+asd
